@@ -370,4 +370,106 @@
   .social-icon img:hover {
     transform: scale(1.2);
   }
-  
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .main-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .left-section,
+  .login-section {
+    width: 100%;
+  }
+
+  .login-section {
+    margin-top: 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .main-container {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .left-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .login-section {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .login-section input,
+  .login-section button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .footer-logo {
+    width: 80px;
+  }
+
+  .social-icon img {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media (max-width: 480px) {
+  .nav-links li {
+    font-size: 13px;
+  }
+
+  .login-section h2 {
+    font-size: 20px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+
+  .footer-links li a {
+    font-size: 13px;
+  }
+}
